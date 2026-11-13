@@ -57,8 +57,8 @@ int main () {
                 printf("X=%f",x);
             }
             else {
-                x1=(-b-sqrt(delta))/2*a;
-                x2=(-b+sqrt(delta))/2*a;
+                x1=(-b-sqrt(delta))/(2*a);
+                x2=(-b+sqrt(delta))/(2*a);
                 printf("X1= %f\nX2= %f",x1,x2);
             }
         }
