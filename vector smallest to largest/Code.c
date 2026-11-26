@@ -15,7 +15,7 @@ int main (){
     }
     for (j=1;j<=N-1;j++){
         for (i=j+1;i<=N;i++){
-            if (v[i]<v[j]){
+            if (v[i]<v[j]){ //Note: we can make v[i]>v[j] to show the values from the largest to the samaller one.
                 x=v[j];
                 v[j]=v[i];
                 v[i]=x;
