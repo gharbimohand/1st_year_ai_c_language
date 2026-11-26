@@ -22,7 +22,7 @@ int main (){
             }
         }
     }
-    printf("The final values Are: \n");
+    printf("The final Vector is: \n");
     for (i=1;i<=N;i++){
         printf("%d ", v[i]);
     }
