@@ -26,5 +26,4 @@ int main (){
     for (i=1;i<=N;i++){
         printf("%d ", v[i]);
     }
-    printf("\n");
 }
