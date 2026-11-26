@@ -3,6 +3,7 @@
 
 int main () {
     float a,b,c,x,x1,x2,delta;
+    while (true){
     printf("Enter the value of a\n");
     scanf("%f", &a);
     printf("Enter the value of b\n");
@@ -63,4 +64,5 @@ int main () {
             }
         }
     }
+}
 }
