@@ -26,7 +26,7 @@ int main () {
     N = j ;
     printf("The new values are: ");
 
-    for (i=1; i < N ;i++) {  // Note: only the last one doesn't have i <= N 
+    for (i=1; i < N ;i++) {  // Note: only the last one doesn't have (i <= N) 
         printf("%d ", v[i]);
     }
 }
